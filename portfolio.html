@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #555;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #333;
+        }
+        .intro {
+            padding: 20px;
+            text-align: center;
+        }
+        .projects {
+            display: flex;
+            flex-direction: column; /* Align projects in a column */
+            align-items: center;    /* Center align the projects */
+            padding: 20px;
+        }
+        .project {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 80%; /* Adjust width to make projects more centered */
+            max-width: 400px;
+        }
+        .project img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .project h3 {
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Clark Luis Querol</h1>
+        <p> IT Student </p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="intro" id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a 2nd-year IT student with a passion for coding and technology, eager to apply my academic knowledge in real-world projects. I'm an ambitious, quick learner, strong communicator, and team player, constantly exploring new tools and techniques to enhance my skills. I am seeking entry-level opportunities to gain practical experience and contribute to exciting projects.</p>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>My Projects</h2>
+        
+        <div class="project">
+            
+            <h3>PC Guide Builder</h3>
+            <p>We aim to help users create a components that provide the best performance. We focus on giving the users best experience creating their desired PC that meets within their budget.</p>
+        </div>
+
+       
+    </section>
+
+    <footer id="contact">
+        <p>Contact me: cldo.querol.up@phinmaed.com</p>
+    </footer>
+
+</body>
+</html>
